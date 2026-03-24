@@ -69,7 +69,7 @@
 }
 
 .quote {
-    width: 500px;
+    width: 35%;
     background: #2D4C7C;
     color: white;
     padding: 25px;
@@ -432,6 +432,25 @@ footer {
     .camera img {
         width: 50%;
     }
+    .hero-left h1{
+    font-size:60px;
+    }
+    .hero-text{
+    font-size:18px;
+    }
+    .info-item span{
+    font-size:18px;
+    line-height: normal;
+    }
+    .hero-right img{
+    width:80%;
+    margin-top: 20px;
+    }
+    .radius{
+    width:300px;
+    height:50px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -535,6 +554,42 @@ footer {
         justify-content: center;
         text-align: center;
     }
+
+    .hero{
+    flex-direction:column;
+  }
+
+  .hero-right{
+    display: flex;
+    align-items:center;
+  }
+  .hero-left h1{
+    font-size:48px;
+  }
+  .hero-text{
+    font-size:16px;
+  }
+  .info-item span{
+    font-size:16px;
+  }
+  .hero-right img{
+    width:50%;
+  }
+  .radius{
+    width:200px;
+    height:30px;
+  }
+  .quote{
+    width:50%;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .quote p{
+    font-size:20px;
+  }
+  .quote span{
+    font-size:16px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -604,4 +659,28 @@ footer {
     .row {
         width: 100%;
     }
+
+    .hero-left h1{
+    font-size:34px;
+    line-height:1.2;
+  }
+  .hero-text{
+    font-size:14px;
+  }
+  .info-item span{
+    font-size:14px;
+  }
+  .radius{
+    width:150px;
+    height:25px;
+  }
+  .quote{
+    width:80%;
+  }
+  .quote p{
+    font-size:18px;
+  }
+  .quote span{
+    font-size:14px;
+  }
 }
